@@ -1,0 +1,7 @@
+groq>=0.11,<2
+python-dotenv>=1,<2
+flask>=3,<4
+# Kept so the original Streamlit interface (app.py) still runs.
+# Pinned to avoid deeply nested template files that exceed Windows path limits.
+streamlit==1.41.1
+pytest>=8,<9
